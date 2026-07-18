@@ -97,7 +97,18 @@ Routes the keyboard arrow keys to the MSX.<br>
 Sets the mix level (0-10) and on/off toggle for each sound chip.<br>
 • <code>PSG</code> (AY-3-8910) -- default vol 5, ON<br>
 • <code>SCC</code> (Konami) -- default vol 3, ON<br>
-• <code>FM</code> (YM2413) -- default vol 3, ON. Turning FM OFF improves performance on slow games.<br>
+• <code>FM</code> (YM2413) -- default vol 3, ON. Turning FM OFF improves performance on slow games.<br><br>
+
+<b>MIDI</b><br>
+MIDI synth has three modes.<br>
+• <code>OFF</code> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no MIDI output<br>
+• <code>MIDI</code> &nbsp;&nbsp;&nbsp;&nbsp; forwards the MSX MIDI port to the DIN connector<br>
+• <code>PSG&gt;MID</code> &nbsp; converts PSG audio to MIDI notes in real time<br>
+Compatible with bitbang MIDI. Requires a custom PS2-to-DIN-5 cable.<br>
+<b>⚠ Enabling MIDI may reduce performance in some games.</b><br>
+<br>
+<img src="/v2.5.6/fmsx_ps2_midi.jpg">
+<br>
 
 ---
 
