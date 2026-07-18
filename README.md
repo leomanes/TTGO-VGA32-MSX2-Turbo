@@ -1,5 +1,7 @@
 # fMSX2+ Version 2.5.6 - ESP32 / TTGO VGA32-V1.4
 <br>
+<img src="/v2.5.6/fmsx.jpg">
+<br>
 A tiny MSX1, MSX2 and MSX2+ emulator (fMSX core by Marat Fayzullin) running on a LilyGO TTGO VGA32 v1.4<br>
 VGA out, PS/2 keyboard, microSD. It can boot to the Game Menu, MSX-Basic, MSX-DOS or NEXTOR.<br>
 <br>
